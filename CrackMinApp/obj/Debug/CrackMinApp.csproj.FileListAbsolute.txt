@@ -1,0 +1,10 @@
+D:\cnet\C井\CrackMinApp\bin\Debug\CrackMinApp.exe.config
+D:\cnet\C井\CrackMinApp\bin\Debug\CrackMinApp.exe
+D:\cnet\C井\CrackMinApp\bin\Debug\CrackMinApp.pdb
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.csprojAssemblyReference.cache
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.mainFrm.resources
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.Properties.Resources.resources
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.csproj.GenerateResource.cache
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.csproj.CoreCompileInputs.cache
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.exe
+D:\cnet\C井\CrackMinApp\obj\Debug\CrackMinApp.pdb
