@@ -68,4 +68,6 @@
 原参考链接: https://blog.csdn.net/qq_33858250/article/details/80543815
 http://lrdcq.com/me/read.php/66.htm
 
+## nodejs/nodejs下面这个压缩包node_modules.zip解压一下。 本来这下面是有个node_modules文件夹的可是由于github默认不上传超过100个文件导致没有上传这个关键文件 
+
 ![Image text](https://s2.ax1x.com/2019/03/24/AYZDtU.png)
