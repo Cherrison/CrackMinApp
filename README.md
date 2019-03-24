@@ -74,6 +74,6 @@ http://lrdcq.com/me/read.php/66.htm
 
 ## 注意未避免文件名称过长导致的错误，请把目录下文件复制到一个根目录下新建的文件夹下面
 
-![Image text](https://imgchr.com/i/AYeyUf)
+![Image text](https://s2.ax1x.com/2019/03/24/AYeyUf.png)
 
 路径名称过长
