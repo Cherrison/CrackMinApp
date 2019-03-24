@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'BrowserSync' ]
+2 info using npm@1.4.9
+3 info using node@v8.11.4
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'BrowserSync', null ]
+6 verbose cache add name=undefined spec="BrowserSync" args=["BrowserSync",null]
+7 verbose parsed url Url {
+7 verbose parsed url   protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'BrowserSync',
+7 verbose parsed url   path: 'BrowserSync',
+7 verbose parsed url   href: 'BrowserSync' }
+8 silly lockFile 65e47d97-BrowserSync BrowserSync
+9 verbose lock BrowserSync C:\Users\你大跌\AppData\Roaming\npm-cache\65e47d97-BrowserSync.lock
+10 silly lockFile 65e47d97-BrowserSync BrowserSync
+11 silly lockFile 65e47d97-BrowserSync BrowserSync
+12 verbose addNamed [ 'BrowserSync', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 879e9870-BrowserSync BrowserSync@
+15 verbose lock BrowserSync@ C:\Users\你大跌\AppData\Roaming\npm-cache\879e9870-BrowserSync.lock
+16 silly addNameRange { name: 'BrowserSync', range: '*', hasData: false }
+17 verbose url raw BrowserSync
+18 verbose url resolving [ 'https://registry.npmjs.org/', './BrowserSync' ]
+19 verbose url resolved https://registry.npmjs.org/BrowserSync
+20 info trying registry request attempt 1 at 10:49:15
+21 http GET https://registry.npmjs.org/BrowserSync
+22 http 404 https://registry.npmjs.org/BrowserSync
+23 verbose headers { date: 'Tue, 04 Sep 2018 02:49:14 GMT',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'content-length': '21',
+23 verbose headers   connection: 'close',
+23 verbose headers   'set-cookie':
+23 verbose headers    [ '__cfduid=d65e0f5b499fee973d12f60769ef413e21536029353; expires=Wed, 04-Sep-19 02:49:13 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 verbose headers   'cf-cache-status': 'MISS',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'cf-ray': '454d2444b85ab158-HKG',
+23 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 verbose headers   vary: 'accept-encoding, accept',
+23 verbose headers   server: 'cloudflare' }
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Tue, 04 Sep 2018 02:49:14 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '21',
+24 silly registry.get     connection: 'close',
+24 silly registry.get     'set-cookie':
+24 silly registry.get      [ '__cfduid=d65e0f5b499fee973d12f60769ef413e21536029353; expires=Wed, 04-Sep-19 02:49:13 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+24 silly registry.get     'cf-cache-status': 'MISS',
+24 silly registry.get     'cache-control': 'max-age=300',
+24 silly registry.get     'cf-ray': '454d2444b85ab158-HKG',
+24 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 silly registry.get     vary: 'accept-encoding, accept',
+24 silly registry.get     server: 'cloudflare' } ]
+25 silly lockFile 879e9870-BrowserSync BrowserSync@
+26 silly lockFile 879e9870-BrowserSync BrowserSync@
+27 error Error: Not found : BrowserSync
+27 error     at RegClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+27 error     at Request._callback (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+27 error     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+27 error     at emitTwo (events.js:126:13)
+27 error     at Request.emit (events.js:214:7)
+27 error     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+27 error     at emitOne (events.js:121:20)
+27 error     at Request.emit (events.js:211:7)
+27 error     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+27 error     at emitNone (events.js:111:20)
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Windows_NT 10.0.17134
+30 error command "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "BrowserSync"
+31 error cwd D:\腾讯游戏\node-v8.11.4-win-x64\node-v8.11.4-win-x64
+32 error node -v v8.11.4
+33 error npm -v 1.4.9
+34 verbose exit [ 1, true ]
