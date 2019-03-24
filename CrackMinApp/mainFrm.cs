@@ -18,10 +18,11 @@ namespace CrackMinApp
         {
             InitializeComponent();
         }
-
+        public static string str="";
         private void blDir()
         {
-            string dir = @"D:\CrackMinApp\wxapkg";
+            string dir = str+@"\wxapkg";
+            MessageBox.Show(dir);
             string fileName = "";
             DirectoryInfo dire = new DirectoryInfo(dir);
             tables.Items.Clear();
@@ -40,6 +41,7 @@ namespace CrackMinApp
         }
         private void btuExc_Click(object sender, EventArgs e)
         {
+            proBar.Value = 0;
             if (tables.SelectedItem==null) MessageBox.Show("请先选择文件,或目录选择错误,或该文件目录下没有文件,请加入", "提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             else
             {
@@ -57,13 +59,13 @@ namespace CrackMinApp
                     p.Start();//启动程序
 
                     string strCMD0 = "D:";
-                    string strCMD1 = @"cd D:\CrackMinApp\nodejs\nodejs";
-                    string strCMD2 = @"node .\wuWxapkg.js D:\take\"+tables.SelectedItem.ToString();
+                    string strCMD1 = "cd "+str+@"\nodejs\nodejs";
+                    string strCMD2 = @"node .\wuWxapkg.js "+str+@"\wxapkg\" + tables.SelectedItem.ToString();
                     //向cmd窗口发送输入信息
                     p.StandardInput.WriteLine(strCMD0);
                     for (int i = 0; i < 100; i++)
                     {
-                        System.Threading.Thread.Sleep(60);
+                        System.Threading.Thread.Sleep(360);
                         proBar.Value += proBar.Step;
                         if (proBar.Value > 95) break;
                     }
@@ -91,7 +93,18 @@ namespace CrackMinApp
 
         private void mainFrm_Load(object sender, EventArgs e)
         {
+            str = Directory.GetCurrentDirectory();
             this.blDir();
+        }
+
+        private void btnFlesh_Click(object sender, EventArgs e)
+        {
+            this.blDir();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/Cherrison");
         }
     }
 }
