@@ -53,8 +53,7 @@
   举个例子: 
   在模拟器微信中运行一下后，直接切回模拟器桌面运行RE浏览器 来到目录
   /data/data/com.tencent.mm/MicroMsg//appbrand/pkg/
-  就抵达了目的文件夹
-  
+  就抵达了目的文件夹/
   你会看到发现里面的一些.wxapkg后缀的文件，就是它们没错啦，可以根据使用的时间来判断那个是你刚才从服务器下载过来的
 一般小程序的文件不会太大，可以结合时间来判断，长按压缩所选文件,然后再将压缩好的包通过QQ发送到我的电脑
 如果不进行压缩的话，是无法将这个文件通过QQ来发送的
@@ -66,7 +65,7 @@
 原参考链接: https://blog.csdn.net/qq_33858250/article/details/80543815
 http://lrdcq.com/me/read.php/66.htm
 
-<span id = "jump">Bug修复</span>
+# <span id = "jump">Bug修复</span>
 
 ## nodejs/nodejs下面这个压缩包node_modules.zip解压一下。 本来这下面是有个node_modules文件夹的可是由于github默认不上传超过100个文件导致没有上传这个关键文件 
 
