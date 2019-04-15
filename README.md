@@ -1,7 +1,7 @@
 # CrackMinApp
    **2.0版本今日更新，可以直接解压在任何地方使用，无需指定**
   
-   ## [Bug最新修复时间 2019.4.15 bug修复请看最下方]（#路径名称过长）
+   ## [Bug最新修复时间 2019.4.15 bug修复请看最下方]（#jump）
 
 一键获取微信小程序源码, 使用了C#加nodejs制作
 直接解压在D盘根目录下后就可以使用
@@ -66,6 +66,8 @@
 原参考链接: https://blog.csdn.net/qq_33858250/article/details/80543815
 http://lrdcq.com/me/read.php/66.htm
 
+<span id = "jump">Bug修复</span>
+
 ## nodejs/nodejs下面这个压缩包node_modules.zip解压一下。 本来这下面是有个node_modules文件夹的可是由于github默认不上传超过100个文件导致没有上传这个关键文件 
 
 ![Image text](https://s2.ax1x.com/2019/03/24/AYZDtU.png)
@@ -74,8 +76,9 @@ http://lrdcq.com/me/read.php/66.htm
 
 ![Image text](https://s2.ax1x.com/2019/03/24/AYeyUf.png)
 
-### 路径名称过长
+路径名称过长
 # 2019.4.15
+
 ## 修复wxappUnpacker __mainPageFrameReady__ is not defined
 ## 修复ReferenceError: $gwx is not defined
 
