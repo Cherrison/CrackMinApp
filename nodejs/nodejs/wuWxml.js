@@ -105,10 +105,10 @@ function analyze(core,z,namePool,xPool,fakePool={},zMulName="0"){
 								push(dec.id.name,{tag:"block",son:[],v:{}});
 							break;
 							case "_o":
-								push(dec.id.name,{tag:"__textNode__",content:z[dec.init.arguments[0].value]});
+								push(dec.id.name,{tag:"__textNode__",textNode:true,content:z[dec.init.arguments[0].value]});
 							break;
 							case "_oz":
-								push(dec.id.name,{tag:"__textNode__",content:z.mul[zMulName][dec.init.arguments[1].value]});
+								push(dec.id.name,{tag:"__textNode__",textNode:true,content:z.mul[zMulName][dec.init.arguments[1].value]});
 							break;
 							case "_m":
 							{
@@ -246,7 +246,7 @@ function elemToString(elem,dep,moreInfo=false){
 	const longerList=[];//put tag name which can't be <x /> style.
 	const indent=' '.repeat(4);
 	function isTextTag(elem){
-		return elem.tag=="__textNode__"&&elem.content;
+		return elem.tag=="__textNode__"&&elem.textNode;
 	}
 	function elemRecursion(elem,dep){
 		return elemToString(elem,dep,moreInfo);
@@ -376,7 +376,8 @@ function doFrame(name,cb,order){
 				for(let deps in now){
 					let ref=now[deps]();
 					if(ref.includes(":"))res.push("<wxs module=\""+deps+"\">\n"+doWxs(requireInfo[ref].toString())+"\n</wxs>");
-					else res.push("<wxs module=\""+deps+"\" src=\""+wu.toDir(pF[ref],info)+"\" />");
+					else if(pF[ref])res.push("<wxs module=\""+deps+"\" src=\""+wu.toDir(pF[ref],info)+"\" />");
+					else res.push("<wxs module=\""+deps+"\" src=\""+wu.toDir(ref.slice(2),info)+"\" />");
 					wxsList[name]=res.join("\n");
 				}
 			}

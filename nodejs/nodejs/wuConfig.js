@@ -31,6 +31,7 @@ function doConfig(configFile,cb){
 			app.subPackages=e.subPackages;
 			console.log("=======================================================\nNOTICE: SubPackages exist in this package.\nDetails: ",app.subPackages,"\n=======================================================");
 		}
+		if(e.navigateToMiniProgramAppIdList)app.navigateToMiniProgramAppIdList=e.navigateToMiniProgramAppIdList;
 		if(fs.existsSync(path.resolve(dir,"workers.js")))app.workers=getWorkerPath(path.resolve(dir,"workers.js"));
 		if(e.extAppid)
 			wu.save(path.resolve(dir,'ext.json'),JSON.stringify({extEnable:true,extAppid:e.extAppid,ext:e.ext},null,4));
@@ -44,6 +45,16 @@ function doConfig(configFile,cb){
 				if(!e.page[file].window)e.page[file].window={};
 				e.page[file].window.component=true;
 			}
+		if(fs.existsSync(path.resolve(dir,"app-service.js"))){
+			let matches=fs.readFileSync(path.resolve(dir,"app-service.js"),{encoding:'utf8'}).match(/\_\_wxAppCode\_\_\['[^\.]+\.json[^;]+\;/g);
+			if(matches){
+				let attachInfo={};
+				(new VM({sandbox:{
+					__wxAppCode__:attachInfo
+				}})).run(matches.join(""));
+				for(let name in attachInfo)e.page[wu.changeExt(name,".html")]={window:attachInfo[name]};
+			}
+		}
 		let delWeight=8;
 		for(let a in e.page){
 			let fileName=path.resolve(dir,wu.changeExt(a,".json"));

@@ -64,6 +64,7 @@ function doWxss(dir,cb){
 		};
 	}
 	function runVM(name,code){
+		code = code.replace('__mainPageFrameReady__()', '');
 		let wxAppCode={},handle={cssFile:name};
 		let vm=new VM({sandbox:Object.assign(new GwxCfg(),{__wxAppCode__:wxAppCode,setCssToHead:cssRebuild.bind(handle)})});
 		vm.run(code);
