@@ -69,17 +69,17 @@ http://lrdcq.com/me/read.php/66.htm
 # <span id = "jump">Bug修复</span>
 # 2019.3.22
 ## 修复无法执行问题
-### nodejs/nodejs下面这个压缩包node_modules.zip解压一下。 本来这下面是有个node_modules文件夹的可是由于github默认不上传超过100个文件导致没有上传这个关键文件 
+#### nodejs/nodejs下面这个压缩包node_modules.zip解压一下。 本来这下面是有个node_modules文件夹的可是由于github默认不上传超过100个文件导致没有上传这个关键文件 
 
 ![Image text](https://s2.ax1x.com/2019/03/24/AYZDtU.png)
 
-### 注意未避免文件名称过长导致的错误，请把目录下文件复制到一个根目录下新建的文件夹下面
+#### 注意未避免文件名称过长导致的错误，请把目录下文件复制到一个根目录下新建的文件夹下面
 
 ![Image text](https://s2.ax1x.com/2019/03/24/AYeyUf.png)
 
-### 路径名称过长
+#### 路径名称过长
 # 2019.4.15
 
-## 修复wxappUnpacker __mainPageFrameReady__ is not defined
-## 修复ReferenceError: $gwx is not defined
+### 修复wxappUnpacker __mainPageFrameReady__ is not defined
+### 修复ReferenceError: $gwx is not defined
 
