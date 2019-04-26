@@ -1,7 +1,8 @@
 <p class="text-align:center">
 <img src="http://www.cheery.pro/images/logo.png" alt="logo" title="logo" />
 </a>
-# CrackMinApp
+
+# CrackMinApp —— 反编译微信小程序
 
    **2.0版本今日更新，可以直接解压在任何地方使用，无需指定**
   
