@@ -1,4 +1,4 @@
-<p class="align=center">
+<p align="center">
 <img src="http://www.cheery.pro/images/logob.png" alt="logo" title="logo" />
 </p>
 
