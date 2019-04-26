@@ -1,5 +1,5 @@
-<p class="text-align:center">
-<img src="http://www.cheery.pro/images/logof.png" alt="logo" title="logo" />
+<p class="align=center">
+<img src="http://www.cheery.pro/images/logob.png" alt="logo" title="logo" />
 </p>
 
 # CrackMinApp —— 反编译微信小程序
