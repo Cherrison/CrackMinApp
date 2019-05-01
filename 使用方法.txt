@@ -1,3 +1,7 @@
-ֱ�ӽ�ѹ��Ϳ���ʹ��
-��С�����ļ��ŵ� wxapkgĿ¼��
-Ȼ��� CrackMinApp.exe ��˵������ʹ��
+直接解压后就可以使用
+将小程序文件放到 wxapkg目录下
+然后打开 CrackMinApp.exe 按说明即可使用
+
+！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+
+注意： nodejs/nodejs下面这个压缩包node_modules.zip解压一下。 本来这下面是有个node_modules文件夹的可是由于github默认不上传超过100个文件导致没有上传这个关键文件， 故采用了这样的方法
