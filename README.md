@@ -4,7 +4,7 @@
 
 # CrackMinApp —— 反编译微信小程序
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6095e928-6e66-4f72-8c7a-ba75f4db70f3/deploy-status)](https://app.netlify.com/teams/cherrison/sites)![GitHub last commit](https://img.shields.io/github/last-commit/Cherrison/CrackMinApp.svg)![GitHub issues](https://img.shields.io/github/issues/Cherrison/CrackMinApp.svg)[![GitHub stars](https://camo.githubusercontent.com/5b0af3502141b12f3dc8d8b6035c7b552c518d0b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f436865727269736f6e2f437261636b4d696e4170702e7376673f7374796c653d736f6369616c)](https://github.com/Cherrison/CrackMinApp/stargazers)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6095e928-6e66-4f72-8c7a-ba75f4db70f3/deploy-status)](https://app.netlify.com/teams/cherrison/sites)![GitHub last commit](https://img.shields.io/github/last-commit/Cherrison/CrackMinApp.svg)[![GitHub issues](https://img.shields.io/github/issues/Cherrison/CrackMinApp.svg)](https://github.com/Cherrison/CrackMinApp/issues)[![GitHub stars](https://camo.githubusercontent.com/5b0af3502141b12f3dc8d8b6035c7b552c518d0b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f436865727269736f6e2f437261636b4d696e4170702e7376673f7374796c653d736f6369616c)](https://github.com/Cherrison/CrackMinApp/stargazers)
 
 - - -
 
