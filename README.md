@@ -98,7 +98,7 @@ http://lrdcq.com/me/read.php/66.htm
 ### 修复wxappUnpacker __mainPageFrameReady__ is not defined
 ### 修复ReferenceError: $gwx is not defined
 
-# 2019.10.224
+# 2019.10.24
 
 ### 修复__vd_version_info__ is not defined
 ### 增强wxss分包支持
