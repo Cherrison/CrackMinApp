@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Cherrison/CrackMinApp/blob/master/logo.png" alt="logo" title="logo" />
+<img src="https://github.com/Cherrison/CrackMinApp/blob/master/crackminapp.png" alt="logo" title="logo" />
 </p>
 
 # CrackMinApp —— 反编译微信小程序
