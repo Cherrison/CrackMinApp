@@ -9,6 +9,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6095e928-6e66-4f72-8c7a-ba75f4db70f3/deploy-status)](https://app.netlify.com/teams/cherrison/sites)![GitHub last commit](https://img.shields.io/github/last-commit/Cherrison/CrackMinApp.svg)[![GitHub issues](https://img.shields.io/github/issues/Cherrison/CrackMinApp.svg)](https://github.com/Cherrison/CrackMinApp/issues)[![GitHub stars](https://camo.githubusercontent.com/5b0af3502141b12f3dc8d8b6035c7b552c518d0b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f436865727269736f6e2f437261636b4d696e4170702e7376673f7374796c653d736f6369616c)](https://github.com/Cherrison/CrackMinApp/stargazers)
 
 - - -
+## 使用说明
+1. 下载或者克隆本项目到D盘根目录（重要，必须是D盘根目录，其他目录执行不报错，但是无法反编译出文件）
+2. 进入nodejs/nodejs，右键 node_modules.zip 压缩包，选择【加压到 node_modules\ [E]】
+3. 获取待反编译的小程序包，这里推荐[夜神](https://www.yeshen.com/)模拟器,具体获取包，看下面的说明
+4. 将包放在待反编译的包文件，放在 wxapkg 目录下
+5. 然后启动根目录下的 CrackMinApp.exe 安装提示进去操作即可
+- - -
 
    **2.0版本今日更新，可以直接解压在任何地方使用，无需指定**
    
