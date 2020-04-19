@@ -11,9 +11,9 @@
 - - -
 ## 使用说明
 1. 下载或者克隆本项目到D盘根目录（重要，必须是D盘根目录，其他目录执行不报错，但是无法反编译出文件）
-2. 进入nodejs/nodejs，右键 node_modules.zip 压缩包，选择【加压到 node_modules\ [E]】
+2. 进入nodejs/nodejs，右键 node_modules.zip 压缩包，选择【解压到 node_modules\ [E]】
 3. 获取待反编译的小程序包，这里推荐[夜神](https://www.yeshen.com/)模拟器,具体获取包，看下面的说明
-4. 将包放在待反编译的包文件，放在 wxapkg 目录下
+4. 待反编译的包放在 wxapkg 目录下
 5. 然后启动根目录下的 CrackMinApp.exe 安装提示进去操作即可
 - - -
 
