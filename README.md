@@ -9,6 +9,14 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6095e928-6e66-4f72-8c7a-ba75f4db70f3/deploy-status)](https://app.netlify.com/teams/cherrison/sites)![GitHub last commit](https://img.shields.io/github/last-commit/Cherrison/CrackMinApp.svg)[![GitHub issues](https://img.shields.io/github/issues/Cherrison/CrackMinApp.svg)](https://github.com/Cherrison/CrackMinApp/issues)[![GitHub stars](https://camo.githubusercontent.com/5b0af3502141b12f3dc8d8b6035c7b552c518d0b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f436865727269736f6e2f437261636b4d696e4170702e7376673f7374796c653d736f6369616c)](https://github.com/Cherrison/CrackMinApp/stargazers)
 
 - - -
+## 使用说明概要
+1. 下载或者克隆本项目到D盘根目录（重要，必须是D盘，其他盘执行不报错，但是无法反编译出文件）
+2. 进入nodejs/nodejs，右键 node_modules.zip 压缩包，选择【解压到 node_modules\ [E]】
+3. 获取待反编译的小程序包，这里推荐[夜神](https://www.yeshen.com/)模拟器，安装微信，运行一次小程序
+4.在夜神模拟器上安装 [R.E.文件管理器](https://pan.baidu.com/s/1PPBx08rNutXxhlMMJbuTpQ),先在自己电脑上下载这个包(这里需要百度云盘PC软件）没有又不想安装，到网上找有root权限的安装文件管理器或者其他下载站下载即可，然后启动夜神模拟器，然后拖入即可自动安装，然后启动它，提示权限是给root权限，然后路径 /data/data/com.tencent.mm/MicroMsg/[一长串字符串]/appbrand/pkg，然后长按，点右上角的三个点，然后选择压缩(不压缩直接点发送会提示获取不到资源），压缩后，提示调转到压缩包目录，进去后，长按，点三个点下的发送，用微信发送，因为夜神模拟的是手机，你电脑还可以同时在线你的微信（省掉其他教程模拟器上装QQ的步骤），传出来后解压就得到压缩包了
+5. 然后将上一步解压的待反编译的包放在 wxapkg 目录下
+6. 然后启动根目录下的 CrackMinApp.exe 安装提示进去操作即可
+- - -
 
    **2.0版本今日更新，可以直接解压在任何地方使用，无需指定**
    
